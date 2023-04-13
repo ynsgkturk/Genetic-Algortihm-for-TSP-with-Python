@@ -83,7 +83,7 @@ def store_case(cities, width, height, base_path=r'scenarios'):
 if __name__ == '__main__':
     width = 600
     height = 600
-    cities = generate_scenario(width, height, 30, 100)
+    cities = generate_scenario(width, height, 30, 50)
 
     # convert_image_and_save(width, height, cities, "case_1.png")
 
