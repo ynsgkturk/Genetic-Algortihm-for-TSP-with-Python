@@ -27,7 +27,9 @@ def problem_terminate(scenario_path, scenario_number):
 
     distance_matrix = calculate_distance_matrix(subareas)
 
-    return m, dimension, lower_bound, upper_bound, distance_matrix
+    maxFE = dimension * 100
+
+    return m, dimension, lower_bound, upper_bound, distance_matrix, maxFE
 
 
 if __name__ == '__main__':

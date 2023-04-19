@@ -9,4 +9,4 @@ def generate_population(m, n):
     while len(population) < m:
         population.add(tuple(random.sample(range(1, n + 1), n)))
 
-    return list(population)
+    return [list(pop) for pop in population]
